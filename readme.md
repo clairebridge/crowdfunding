@@ -34,9 +34,7 @@ She Codes crowdfunding project - DRF Backend.
 
 ![image info goes here](./docs/image.png)
 
-## Colour Scheme
-{{ Insert your colour scheme }}
-
+## Colour Scheme hello
 ![image info goes here](./docs/image.png)
 
 ## Fonts
