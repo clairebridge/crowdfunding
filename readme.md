@@ -1,28 +1,28 @@
-# Rescue Ranch
+# Moovment
 by Claire \
 She Codes crowdfunding project - DRF Backend.
 
 ## About
-{{ A paragraph detailing the purpose and target audience for your website. }}
+This website is called Moovment - a corwdfunding website targeted at those who want to help reduce animal creulty and find creatures loving homes.
 
 ## Features
-{{ The features your MVP will include. (Remebber this is a working document, you can change these as you go!) }}
-* [] feature
-* [] feature
+* [X] Create new users
+* [X] Log in and log out
+* [X] Create a new project (as a owner)
+* [X] Pledge to one or many projects (as a supporter)
+* [X] View details about a project
+
+
 
 ### Stretch Goals
 {{ Outline three features that will be your stretch goals if you finish your MVP }}
 
-* [] Stretch goal one
-* [] Stretch goal two
-* [] Stretch goal three
+* [  ] View my profile details and pledges I have made and projects I own
+
 
 ## API Specification
 
-| HTTP Method | Url | Purpose | Request Body | Successful Response Code | Authentication <br /> Authorization
-| --- | ------- | ------ | ---- | -----| ----|
-| GET | projects/ | Return all projects | N/A | 200 | N/A |
-| POST | projects/ | Create a new project | project object | 201 | User must be logged in. |
+
 
 ## Database Schema
 {{ Insert your database schema }}
@@ -34,7 +34,7 @@ She Codes crowdfunding project - DRF Backend.
 
 ![image info goes here](./docs/image.png)
 
-## Colour Scheme hello
+## Colour Scheme
 ![image info goes here](./docs/image.png)
 
 ## Fonts
@@ -49,24 +49,33 @@ Deployed Project: [Deployed website](http://linkhere.com/)
 {{ What steps to take to run this code }}
 
 ### Updated Database Schema
-{{ Updated schema }}
 
-![image info goes here](./docs/image.png)
+![image info goes here](crowdfunding/img/schema.png)
 
 ### Updated Wireframes
-{{  Updated wireframes }}
 
-![image info goes here](./docs/image.png)
+
+![image info goes here](crowdfunding/img/wireframes.png)
 
 ### How To Register a New User
-{{ Step by step instructions for how to register a new user and create a new project (i.e. endpoints and body data). }}
+* set to "post" request
+* use the address "http://localhost:8000/users/"
+* In the JSON, input data for the new user (e.g - 
+{
+	"username":"Test",
+	"password":"Test",
+	"email":"test@gmail.com"
+})
+* Send request, expected output should be a "200 OK" success message, and preview of new user details.
+![image info goes here](crowdfunding/img/new_user.png)
+
 
 ### Screenshots
-* [] A screenshot of Insomnia, demonstrating a successful GET method for any endpoint.
-![image info goes here](./docs/image.png)
+* A screenshot of Insomnia, demonstrating a successful GET method for any endpoint.
+![image info goes here](crowdfunding/img/GETrequest.png)
 
-* [] A screenshot of Insomnia, demonstrating a successful POST method for any endpoint.
-![image info goes here](./docs/image.png)
+* A screenshot of Insomnia, demonstrating a successful POST method for any endpoint.
+![image info goes here](crowdfunding/img/POSTrequest.png)
 
-* [] A screenshot of Insomnia, demonstrating a token being returned.
-![image info goes here](./docs/image.png)
+* A screenshot of Insomnia, demonstrating a token being returned.
+![image info goes here](crowdfunding/img/Usertoken.png)
