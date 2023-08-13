@@ -24,7 +24,7 @@ This website is called Moovment - a corwdfunding website targeted at those who w
 
 
 
-## Database Schema
+<!-- ## Database Schema
 {{ Insert your database schema }}
 
 ![image info goes here](./docs/image.png)
@@ -38,7 +38,7 @@ This website is called Moovment - a corwdfunding website targeted at those who w
 ![image info goes here](./docs/image.png)
 
 ## Fonts
-{{ outline your heading & body font(s) }}
+{{ outline your heading & body font(s) }} -->
 
 ## Submission Documentation
 I have not deployed my site yet, but will have this completed before the next JS module as I was away, and did not have a card to use for the site. I am investigating alternative ways to deploy
@@ -50,12 +50,12 @@ I have not deployed my site yet, but will have this completed before the next JS
 
 ### Updated Database Schema
 
-![image info goes here](crowdfunding/img/schema.png)
+![image info goes here](img/schema.png)
 
 ### Updated Wireframes
 
 
-![image info goes here](crowdfunding/img/wireframes.png)
+![image info goes here](img/wireframes.png)
 
 ### How To Register a New User
 * set to "post" request
@@ -67,15 +67,15 @@ I have not deployed my site yet, but will have this completed before the next JS
 	"email":"test@gmail.com"
 })
 * Send request, expected output should be a "200 OK" success message, and preview of new user details.
-![image info goes here](crowdfunding/img/new_user.png)
+![image info goes here](img/new_user.png)
 
 
 ### Screenshots
 * A screenshot of Insomnia, demonstrating a successful GET method for any endpoint.
-![image info goes here](crowdfunding/img/GETrequest.png)
+![image info goes here](img/GETrequest.png)
 
 * A screenshot of Insomnia, demonstrating a successful POST method for any endpoint.
-![image info goes here](crowdfunding/img/POSTrequest.png)
+![image info goes here](img/POSTrequest.png)
 
 * A screenshot of Insomnia, demonstrating a token being returned.
-![image info goes here](crowdfunding/img/Usertoken.png)
+![image info goes here](img/Usertoken.png)
