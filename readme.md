@@ -41,9 +41,9 @@ This website is called Moovment - a corwdfunding website targeted at those who w
 {{ outline your heading & body font(s) }}
 
 ## Submission Documentation
-{{ Fill this section out for submission }}
+I have not deployed my site yet, but will have this completed before the next JS module as I was away, and did not have a card to use for the site. I am investigating alternative ways to deploy
 
-Deployed Project: [Deployed website](http://linkhere.com/)
+<!-- Deployed Project: [Deployed website](http://linkhere.com/) -->
 
 ### How To Run
 {{ What steps to take to run this code }}
