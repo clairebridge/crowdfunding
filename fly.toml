@@ -1,4 +1,4 @@
-app = "crowd-funding"
+app = "aged-mountain-9212"
 primary_region = "syd"
 console_command = "/code/manage.py shell"
 kill_signal = "SIGINT"
